@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="src/SmartHRMS.API/SmartHRMS.API.csproj" Id="59133e7e-66cc-4de5-8ecf-6b2e731089b4" />
+  <Project Path="src/SmartHRMS.Application/SmartHRMS.Application.csproj" Id="c3d0806f-740f-4081-ac1b-63fc4b6622af" />
+  <Project Path="src/SmartHRMS.Domain/SmartHRMS.Domain.csproj" Id="57304932-2555-432b-a048-f1d3df472c2e" />
+  <Project Path="src/SmartHRMS.Infrastructure/SmartHRMS.Infrastructure.csproj" Id="61ad61c2-b624-4af7-beb8-ebfee9c72044" />
+  <Project Path="src/SmartHRMS.Shared/SmartHRMS.Shared.csproj" Id="7dbae4a6-9491-46c1-a34f-b2ae7d94ef42" />
+  <Project Path="tests/SmartHRMS.Tests/SmartHRMS.Tests.csproj" Id="bd291414-c85d-421f-aac6-fdb4590dd75c" />
+</Solution>

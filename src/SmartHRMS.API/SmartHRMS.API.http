@@ -1,0 +1,6 @@
+@SmartHRMS.API_HostAddress = http://localhost:5153
+
+GET {{SmartHRMS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
