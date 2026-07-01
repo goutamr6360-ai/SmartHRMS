@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="src/SmartHRMS.API/SmartHRMS.API.csproj" Id="59133e7e-66cc-4de5-8ecf-6b2e731089b4" />
   <Project Path="src/SmartHRMS.Application/SmartHRMS.Application.csproj" Id="c3d0806f-740f-4081-ac1b-63fc4b6622af" />
   <Project Path="src/SmartHRMS.Domain/SmartHRMS.Domain.csproj" Id="57304932-2555-432b-a048-f1d3df472c2e" />
