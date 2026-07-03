@@ -20,4 +20,8 @@
     <ProjectReference Include="..\SmartHRMS.Shared\SmartHRMS.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+
 </Project>

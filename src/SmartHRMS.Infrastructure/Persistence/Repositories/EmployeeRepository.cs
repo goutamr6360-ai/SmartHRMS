@@ -39,7 +39,7 @@ namespace SmartHRMS.Infrastructure.Persistence.Repositories
 
         public async Task<Employee?> GetByIdAsync(Guid id)
         {
-            return await _context.Employees.FindAsync(id);
+            return await _context.Employees.FirstOrDefaultAsync(e => e.Id == id);
         }
 
         public async Task UpdateAsync(Employee employee)

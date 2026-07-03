@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using SmartHRMS.Infrastructure.Persistence;
@@ -11,9 +12,11 @@ using SmartHRMS.Infrastructure.Persistence;
 namespace SmartHRMS.Infrastructure.Migrations
 {
     [DbContext(typeof(SmartHrmsDbContext))]
-    partial class SmartHrmsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260703123316_AddIdentityAndCompany")]
+    partial class AddIdentityAndCompany
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
