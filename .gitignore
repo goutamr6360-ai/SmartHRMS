@@ -1,17 +1,58 @@
-# Visual Studio
-.vs/
-bin/
-obj/
+# ==========================================
+# SmartHRMS Root .gitignore
+# Structure:
+# SmartHRMS/
+#   src/
+#     SmartHRMS.API/
+#     SmartHRMS.Application/
+#     SmartHRMS.Domain/
+#     SmartHRMS.Infrastructure/
+#     SmartHRMS.Shared/
+#     SmartHRMS-web/
+# ==========================================
 
-# User-specific files
+# -----------------------------
+# .NET / Visual Studio
+# -----------------------------
+**/bin/
+**/obj/
+.vs/
 *.user
 *.suo
+*.cache
+*.pdb
+TestResults/
+*.nupkg
 
-# VS Code
+# Rider / VS Code
+.idea/
 .vscode/
+*.DotSettings.user
 
-# Node
-node_modules/
+# -----------------------------
+# Angular / Node
+# -----------------------------
+**/node_modules/
+**/dist/
+**/.angular/
+**/coverage/
 
 # Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 *.log
+
+# -----------------------------
+# Local config / secrets
+# -----------------------------
+.env
+.env.*
+**/appsettings.Development.json
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
